@@ -1,0 +1,115 @@
+body{
+    background-image: url(../imagenes/ima1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-imagen{
+    background-size: cover;
+    background-repeat: left center;
+    margin-top: 110px;
+  }
+
+  .formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, -50%);
+    width: 400px;
+    height: 500px; /* Agregado para especificar la altura del formulario */
+    background-image: url(../imagenes/imafor.jpg);
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el formulario */
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que la imagen no se desborde del contenedor del formulario */
+  }
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    color: #578e54;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+    
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #29A631;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.registrarse{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #29A631;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.registrarse a{
+    color: white;
+    text-decoration: none;
+}
+
+.registrarse a:hover{
+    text-decoration: underline;
+}
+
+.recordar{
+    margin: -5px 0 20px 5px;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+}
+
+.recordar a{
+    color: black;
+    text-decoration: none;
+}
+
+.recordar:hover{
+    text-decoration: underline;
+}
+
+
+
+

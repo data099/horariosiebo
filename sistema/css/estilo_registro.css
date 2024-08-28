@@ -1,0 +1,43 @@
+body {
+   
+    background-image: url(../imagenes/ima1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, -50%);
+    width: 400px;
+    height: 500px; /* Agregado para especificar la altura del formulario */
+    background-image: url(../imagenes/imafor.jpg);
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el formulario */
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden; /* Asegura que la imagen no se desborde del contenedor del formulario */
+}
+
+.logo img {
+    
+    background-size: cover;
+    background-repeat: left center;
+    margin-top: 110px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color:  #28a745;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: center;
+}

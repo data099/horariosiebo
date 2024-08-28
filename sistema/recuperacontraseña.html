@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Contraseña</title>
+    <link rel="stylesheet" href="css/estilo_login.css">
+</head>
+<body>
+    
+<div class="contenedor-imagen">
+    <img src="imagenes/iebo.png" alt="IEBO">
+</div>
+    
+<div class="formulario">
+    <h1>Recuperar Contraseña</h1>
+
+    <form method="post" action="enviar_token.php">
+        <div class="username">
+            <label>Correo Electrónico</label>
+            <input type="email" name="correo" required>                
+        </div>
+
+        <input type="submit" value="Enviar Enlace de Recuperación">
+    </form>
+</div>
+
+</body>
+</html>

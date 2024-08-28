@@ -1,0 +1,146 @@
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: auto;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header-logo {
+    width: 50px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-text h2 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.header-text h3 {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #16a085;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.info-item {
+    flex: 1 1 calc(16.66% - 20px);
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.info-item label {
+    flex: 0 0 40%;
+    margin-right: 10px;
+    color: white;
+}
+
+.info-item input,
+.info-item select {
+    flex: 1 1 60%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.info-item.large {
+    flex: 2 1 calc(33.33% - 20px);
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+#tabla-horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: auto;
+}
+
+#tabla-horario th,
+#tabla-horario td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#tabla-horario th {
+    background-color: #16a085;
+    color: white;
+    font-weight: bold;
+}
+
+.hora {
+    width: 90px; /* Ajusta el ancho para las celdas de horario */
+}
+
+.dia {
+    min-width: 200px; /* Ajusta el ancho mínimo para las celdas de días */
+}
+
+.grupo {
+    width: 80px; /* Ajusta el ancho para las celdas de grupo */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #16a085;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #138a70;
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
